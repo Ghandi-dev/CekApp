@@ -38,7 +38,7 @@ def cek(cekDepresi):
 no =1
 while i != p :
     if data[i][1] == "depresi":
-        st.info(f"{1}. {data[i][0]}")
+        st.info(f"{no}. {data[i][0]}")
         pilih = st.radio("Hai",[0,1,2,3],horizontal=True,key=i,label_visibility="collapsed")
         depresi.append(pilih)
         no+=1
